@@ -1,14 +1,15 @@
 <!doctype html>
 <html>
+
 <head>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Hammersmith+One&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/font-awesome-4.6.3/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>CV Paweł Barczuk</title>
 </head>
+
 <body>
     <div id="container">
         <h4>Curriculum Vitae</h4>
@@ -123,12 +124,15 @@
             <br />(zgodnie z Ustawą z dnia 29.08.1997 roku o Ochronie Danych Osobowych; tekst jednolity: Dz. U. z 2002r. Nr 101, poz. 926 ze zm.).</footer>
     </div>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js">
+
+
     </script>
     <script>
         var $animation_elements = $('.animation-element');
         var $window = $(window);
         $window.trigger('scroll');
         $window.on('scroll resize load', check_if_in_view);
+
         function check_if_in_view() {
             var window_height = $window.height();
             var window_top_position = $window.scrollTop();
@@ -144,6 +148,8 @@
                 }
             });
         }
+
     </script>
 </body>
+
 </html>
