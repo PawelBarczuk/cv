@@ -4,7 +4,8 @@ html {
 body {
     margin: 0;
     color: white;
-    font-family: 'Amatic SC', sans-serif;
+/*    font-family: 'Amatic SC', sans-serif;*/
+    font-family: 'Hammersmith One', sans-serif;
 }
 #me {
     background-image: url("../ludek.png");
