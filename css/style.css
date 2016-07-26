@@ -45,7 +45,10 @@ body {
 #print:hover {
     width: 150px;
 }
-a:link {
+a:link,
+a:hover,
+a:visited,
+a:active {
     color: white;
 }
 #container {
